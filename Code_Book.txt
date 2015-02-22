@@ -1,0 +1,99 @@
+=====================================================================================
+Course Assignment - Getting & Cleaning Data
+Code Book
+=====================================================================================
+
+The following represents the various fields in the result set produced as output
+of this assignment. Description and examples are provided.
+
+Field			Description										Type	Example Value
+subject_ID		This field represents the specific subject for whom the observation has been recorded.  Integer	1
+			Values vary from 1 - 30			
+activity		This field represents the type of activity and has following possible values - 		String	WALKING
+			WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING														
+tBodyAcc-mean()-X	This field represents average of tBodyAcc-mean()-X for specific subject and activity	Decimal	0.265696921
+tBodyAcc-mean()-Y	This field represents average of tBodyAcc-mean()-Y for specific subject and activity	Decimal	-0.018298173
+tBodyAcc-mean()-Z	This field represents average of tBodyAcc-mean()-Z for specific subject and activity	Decimal	-0.107845735
+tBodyAcc-std()-X	This field represents average of tBodyAcc-std()-X for specific subject and activity	Decimal	-0.545795331
+tBodyAcc-std()-Y	This field represents average of tBodyAcc-std()-Y for specific subject and activity	Decimal	-0.367716218
+tBodyAcc-std()-Z	This field represents average of tBodyAcc-std()-Z for specific subject and activity	Decimal	-0.502645747
+tGravityAcc-mean()-X	This field represents average of tGravityAcc-mean()-X for specific subject and activity	Decimal	0.744867412
+tGravityAcc-mean()-Y	This field represents average of tGravityAcc-mean()-Y for specific subject and activity	Decimal	-0.082556258
+tGravityAcc-mean()-Z	This field represents average of tGravityAcc-mean()-Z for specific subject and activity	Decimal	0.07233987
+tGravityAcc-std()-X	This field represents average of tGravityAcc-std()-X for specific subject and activity	Decimal	-0.959859436
+tGravityAcc-std()-Y	This field represents average of tGravityAcc-std()-Y for specific subject and activity	Decimal	-0.951150627
+tGravityAcc-std()-Z	This field represents average of tGravityAcc-std()-Z for specific subject and activity	Decimal	-0.925817591
+tBodyAccJerk-mean()-X	This field represents average of tBodyAccJerk-mean()-X for specific subject & activity  Decimal	0.07709305
+tBodyAccJerk-mean()-Y	This field represents average of tBodyAccJerk-mean()-Y for specific subject & activity  Decimal	0.016590844
+tBodyAccJerk-mean()-Z	This field represents average of tBodyAccJerk-mean()-Z for specific subject & activity  Decimal	-0.009107587
+tBodyAccJerk-std()-X	This field represents average of tBodyAccJerk-std()-X for specific subject and activity	Decimal	-0.524721923
+tBodyAccJerk-std()-Y	This field represents average of tBodyAccJerk-std()-Y for specific subject and activity	Decimal	-0.470412404
+tBodyAccJerk-std()-Z	This field represents average of tBodyAccJerk-std()-Z for specific subject and activity	Decimal	-0.717322275
+tBodyGyro-mean()-X	This field represents average of tBodyGyro-mean()-X for specific subject and activity	Decimal	-0.020876406
+tBodyGyro-mean()-Y	This field represents average of tBodyGyro-mean()-Y for specific subject and activity	Decimal	-0.088072273
+tBodyGyro-mean()-Z	This field represents average of tBodyGyro-mean()-Z for specific subject and activity	Decimal	0.086264167
+tBodyGyro-std()-X	This field represents average of tBodyGyro-std()-X for specific subject and activity	Decimal	-0.686555715
+tBodyGyro-std()-Y	This field represents average of tBodyGyro-std()-Y for specific subject and activity	Decimal	-0.45097981
+tBodyGyro-std()-Z	This field represents average of tBodyGyro-std()-Z for specific subject and activity	Decimal	-0.597496137
+tBodyGyroJerk-mean()-X	This field represents average of tBodyGyroJerk-mean()-X for specific subject & activity	Decimal	-0.09711202
+tBodyGyroJerk-mean()-Y	This field represents average of tBodyGyroJerk-mean()-Y for specific subject & activity	Decimal	-0.041716481
+tBodyGyroJerk-mean()-Z	This field represents average of tBodyGyroJerk-mean()-Z for specific subject & activity	Decimal	-0.047139399
+tBodyGyroJerk-std()-X	This field represents average of tBodyGyroJerk-std()-X for specific subject & activity	Decimal	-0.637812687
+tBodyGyroJerk-std()-Y	This field represents average of tBodyGyroJerk-std()-Y for specific subject & activity	Decimal	-0.634472245
+tBodyGyroJerk-std()-Z	This field represents average of tBodyGyroJerk-std()-Z for specific subject & activity	Decimal	-0.664591978
+tBodyAccMag-mean()	This field represents average of tBodyAccMag-mean() for specific subject and activity	Decimal	-0.453632944
+tBodyAccMag-std()	This field represents average of tBodyAccMag-std() for specific subject and activity	Decimal	-0.497096402
+tGravityAccMag-mean()	This field represents average of tGravityAccMag-mean() for specific subject & activity	Decimal	-0.453632944
+tGravityAccMag-std()	This field represents average of tGravityAccMag-std() for specific subject and activity	Decimal	-0.497096402
+tBodyAccJerkMag-mean()	This field represents average of tBodyAccJerkMag-mean() for specific subject & activity	Decimal	-0.545431612
+tBodyAccJerkMag-std()	This field represents average of tBodyAccJerkMag-std() for specific subject & activity	Decimal	-0.515922168
+tBodyGyroMag-mean()	This field represents average of tBodyGyroMag-mean() for specific subject & activity	Decimal	-0.475404786
+tBodyGyroMag-std()	This field represents average of tBodyGyroMag-std() for specific subject and activity	Decimal	-0.499839594
+tBodyGyroJerkMag-mean()	This field represents average of tBodyGyroJerkMag-mean() for specific subject and activity	Decimal	-0.639517433
+tBodyGyroJerkMag-std()	This field represents average of tBodyGyroJerkMag-std() for specific subject and activity	Decimal	-0.652050771
+fBodyAcc-mean()-X	This field represents average of fBodyAcc-mean()-X for specific subject and activity	Decimal	-0.531895161
+fBodyAcc-mean()-Y	This field represents average of fBodyAcc-mean()-Y for specific subject and activity	Decimal	-0.406435449
+fBodyAcc-mean()-Z	This field represents average of fBodyAcc-mean()-Z for specific subject and activity	Decimal	-0.596411165
+fBodyAcc-std()-X	This field represents average of fBodyAcc-std()-X for specific subject and activity	Decimal	-0.553060617
+fBodyAcc-std()-Y	This field represents average of fBodyAcc-std()-Y for specific subject and activity	Decimal	-0.39015094
+fBodyAcc-std()-Z	This field represents average of fBodyAcc-std()-Z for specific subject and activity	Decimal	-0.498583092
+fBodyAcc-meanFreq()-X	This field represents average of fBodyAcc-meanFreq()-X for specific subject and activity	Decimal	-0.180558714
+fBodyAcc-meanFreq()-Y	This field represents average of fBodyAcc-meanFreq()-Y for specific subject and activity	Decimal	0.057629165
+fBodyAcc-meanFreq()-Z	This field represents average of fBodyAcc-meanFreq()-Z for specific subject and activity	Decimal	0.058369278
+fBodyAccJerk-mean()-X	This field represents average of fBodyAccJerk-mean()-X for specific subject and activity	Decimal	-0.547348892
+fBodyAccJerk-mean()-Y	This field represents average of fBodyAccJerk-mean()-Y for specific subject and activity	Decimal	-0.507343618
+fBodyAccJerk-mean()-Z	This field represents average of fBodyAccJerk-mean()-Z for specific subject and activity	Decimal	-0.695305114
+fBodyAccJerk-std()-X	This field represents average of fBodyAccJerk-std()-X for specific subject and activity	Decimal	-0.543979776
+fBodyAccJerk-std()-Y	This field represents average of fBodyAccJerk-std()-Y for specific subject and activity	Decimal	-0.466251677
+fBodyAccJerk-std()-Z	This field represents average of fBodyAccJerk-std()-Z for specific subject and activity	Decimal	-0.737861933
+fBodyAccJerk-meanFreq()-X	This field represents average of fBodyAccJerk-meanFreq()-X for specific subject and activity	Decimal	-0.048800597
+fBodyAccJerk-meanFreq()-Y	This field represents average of fBodyAccJerk-meanFreq()-Y for specific subject and activity	Decimal	-0.215279158
+fBodyAccJerk-meanFreq()-Z	This field represents average of fBodyAccJerk-meanFreq()-Z for specific subject and activity	Decimal	-0.096449638
+fBodyGyro-mean()-X	This field represents average of fBodyGyro-mean()-X for specific subject and activity	Decimal	-0.623219182
+fBodyGyro-mean()-Y	This field represents average of fBodyGyro-mean()-Y for specific subject and activity	Decimal	-0.505309434
+fBodyGyro-mean()-Z	This field represents average of fBodyGyro-mean()-Z for specific subject and activity	Decimal	-0.553529065
+fBodyGyro-std()-X	This field represents average of fBodyGyro-std()-X for specific subject and activity	Decimal	-0.708263421
+fBodyGyro-std()-Y	This field represents average of fBodyGyro-std()-Y for specific subject and activity	Decimal	-0.429825833
+fBodyGyro-std()-Z	This field represents average of fBodyGyro-std()-Z for specific subject and activity	Decimal	-0.650476162
+fBodyGyro-meanFreq()-X	This field represents average of fBodyGyro-meanFreq()-X for specific subject and activity	Decimal	-0.03203241
+fBodyGyro-meanFreq()-Y	This field represents average of fBodyGyro-meanFreq()-Y for specific subject and activity	Decimal	-0.090151724
+fBodyGyro-meanFreq()-Z	This field represents average of fBodyGyro-meanFreq()-Z for specific subject and activity	Decimal	-0.018006394
+fBodyAccMag-mean()	This field represents average of fBodyAccMag-mean() for specific subject and activity	Decimal	-0.478448523
+fBodyAccMag-std()	This field represents average of fBodyAccMag-std() for specific subject and activity	Decimal	-0.589710231
+fBodyAccMag-meanFreq()	This field represents average of fBodyAccMag-meanFreq() for specific subject and activity	Decimal	0.142062163
+fBodyBodyAccJerkMag-mean()	This field represents average of fBodyBodyAccJerkMag-mean() for specific subject and activity	Decimal	-0.499075766
+fBodyBodyAccJerkMag-std()	This field represents average of fBodyBodyAccJerkMag-std() for specific subject and activity	Decimal	-0.54182308
+fBodyBodyAccJerkMag-meanFreq()	This field represents average of fBodyBodyAccJerkMag-meanFreq() for specific subject and activity	Decimal	0.20005518
+fBodyBodyGyroMag-mean()	This field represents average of fBodyBodyGyroMag-mean() for specific subject and activity	Decimal	-0.53500277
+fBodyBodyGyroMag-std()	This field represents average of fBodyBodyGyroMag-std() for specific subject and activity	Decimal	-0.56657667
+fBodyBodyGyroMag-meanFreq()	This field represents average of fBodyBodyGyroMag-meanFreq() for specific subject and activity	Decimal	0.064930944
+fBodyBodyGyroJerkMag-mean()	This field represents average of fBodyBodyGyroJerkMag-mean() for specific subject and activity	Decimal	-0.645970655
+fBodyBodyGyroJerkMag-std()	This field represents average of fBodyBodyGyroJerkMag-std() for specific subject and activity	Decimal	-0.685811263
+fBodyBodyGyroJerkMag-meanFreq()	This field represents average of fBodyBodyGyroJerkMag-meanFreq() for specific subject and activity	Decimal	0.19803158
+angle(tBodyAccMean,gravity)	This field represents average of angle(tBodyAccMean,gravity) for specific subject and activity	Decimal	0.037607706
+angle(tBodyAccJerkMean),gravityMean)	This field represents average of angle(tBodyAccJerkMean),gravityMean) for specific subject and activity	Decimal	0.009018109
+angle(tBodyGyroMean,gravityMean)	This field represents average of angle(tBodyGyroMean,gravityMean) for specific subject and activity	Decimal	-0.013450953
+angle(tBodyGyroJerkMean,gravityMean)	This field represents average of angle(tBodyGyroJerkMean,gravityMean) for specific subject and activity	Decimal	-0.001630354
+angle(X,gravityMean)	This field represents average of angle(X,gravityMean) for specific subject and activity	Decimal	-0.535773765
+angle(Y,gravityMean)	This field represents average of angle(Y,gravityMean) for specific subject and activity	Decimal	0.122790251
+angle(Z,gravityMean)	This field represents average of angle(Z,gravityMean) for specific subject and activity	Decimal	-0.039079018
